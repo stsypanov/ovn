@@ -56,9 +56,9 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
-<!--                <version>5.3.6</version>-->
+                <version>5.3.6</version>
 <!--                <version>5.3.6-no-buf</version>-->
-                <version>5.3.5-cr</version>
+<!--                <version>5.3.5-cr</version>-->
             </dependency>
         </dependencies>
     </dependencyManagement>
