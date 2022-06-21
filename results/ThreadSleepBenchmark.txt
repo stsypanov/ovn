@@ -1,0 +1,30 @@
+Java 18
+
+Mac
+
+Benchmark                   (delay)  Mode  Cnt   Score   Error  Units
+ThreadSleepBenchmark.sleep        5  avgt   50   6,579 ± 0,068  ms/op
+ThreadSleepBenchmark.sleep       10  avgt   50  12,374 ± 0,053  ms/op
+ThreadSleepBenchmark.sleep       50  avgt   50  53,961 ± 0,183  ms/op
+ThreadSleepBenchmark.spin         5  avgt   50   5,811 ± 0,238  ms/op
+ThreadSleepBenchmark.spin        10  avgt   50  11,659 ± 0,300  ms/op
+ThreadSleepBenchmark.spin        50  avgt   50  53,134 ± 0,071  ms/op
+ThreadSleepBenchmark.yield        5  avgt   50   5,744 ± 0,045  ms/op
+ThreadSleepBenchmark.yield       10  avgt   50  11,760 ± 0,403  ms/op
+ThreadSleepBenchmark.yield       50  avgt   50  55,770 ± 0,164  ms/op
+
+Java 19 ad-hoc build
+
+Mac
+
+Benchmark                   (delay)  Mode  Cnt   Score   Error  Units
+ThreadSleepBenchmark.sleep        5  avgt   50   6,669 ± 0,026  ms/op
+ThreadSleepBenchmark.sleep       10  avgt   50  12,059 ± 0,145  ms/op
+ThreadSleepBenchmark.sleep       50  avgt   50  53,830 ± 0,256  ms/op
+ThreadSleepBenchmark.spin         5  avgt   50   6,138 ± 0,216  ms/op
+ThreadSleepBenchmark.spin        10  avgt   50  13,110 ± 0,057  ms/op
+ThreadSleepBenchmark.spin        50  avgt   50  54,007 ± 0,723  ms/op
+ThreadSleepBenchmark.yield        5  avgt   50   5,786 ± 0,075  ms/op
+ThreadSleepBenchmark.yield       10  avgt   50  11,378 ± 0,196  ms/op
+ThreadSleepBenchmark.yield       50  avgt   50  52,616 ± 0,164  ms/op
+
