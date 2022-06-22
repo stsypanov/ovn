@@ -1,3 +1,18 @@
+Java 11
+
+Mac
+
+Benchmark                   (delay)  Mode  Cnt   Score   Error  Units
+ThreadSleepBenchmark.sleep        5  avgt   50   6,669 ± 0,033  ms/op
+ThreadSleepBenchmark.sleep       10  avgt   50  12,891 ± 0,262  ms/op
+ThreadSleepBenchmark.sleep       50  avgt   50  54,021 ± 0,283  ms/op
+ThreadSleepBenchmark.spin         5  avgt   50   5,836 ± 0,038  ms/op
+ThreadSleepBenchmark.spin        10  avgt   50  11,498 ± 0,080  ms/op
+ThreadSleepBenchmark.spin        50  avgt   50  52,926 ± 0,181  ms/op
+ThreadSleepBenchmark.yield        5  avgt   50   5,773 ± 0,079  ms/op
+ThreadSleepBenchmark.yield       10  avgt   50  12,203 ± 0,334  ms/op
+ThreadSleepBenchmark.yield       50  avgt   50  54,637 ± 0,657  ms/op
+
 Java 18
 
 Mac
