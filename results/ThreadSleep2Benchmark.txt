@@ -7,10 +7,25 @@ ThreadSleep2Benchmark.sleep        5  avgt   50   6,760 ± 0,070  ms/op
 ThreadSleep2Benchmark.sleep       10  avgt   50  12,496 ± 0,050  ms/op
 ThreadSleep2Benchmark.sleep       50  avgt   50  54,727 ± 0,599  ms/op
 
+Linux
+
+Benchmark                    (delay)  Mode  Cnt   Score   Error  Units
+ThreadSleep2Benchmark.sleep        5  avgt   50   5.600 ± 0.032  ms/op
+ThreadSleep2Benchmark.sleep       10  avgt   50  10.558 ± 0.052  ms/op
+ThreadSleep2Benchmark.sleep       50  avgt   50  50.625 ± 0.049  ms/op
+
 Java 18
 
 Mac
 
+Benchmark                    (delay)  Mode  Cnt   Score   Error  Units
 ThreadSleep2Benchmark.sleep        5  avgt   50   6,740 ± 0,067  ms/op
 ThreadSleep2Benchmark.sleep       10  avgt   50  12,400 ± 0,112  ms/op
 ThreadSleep2Benchmark.sleep       50  avgt   50  53,836 ± 0,250  ms/op
+
+Linux
+
+Benchmark                          (delay)  Mode  Cnt   Score   Error      Units
+ThreadSleep2Benchmark.sleep              5  avgt   50   5.574 ± 0.035      ms/op
+ThreadSleep2Benchmark.sleep             10  avgt   50  10.918 ± 0.035      ms/op
+ThreadSleep2Benchmark.sleep             50  avgt   50  50.823 ± 0.055      ms/op
